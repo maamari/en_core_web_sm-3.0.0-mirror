@@ -1,7 +1,7 @@
 Metadata-Version: 1.0
-Name: en_core_web_sm
-Version: 3.0.0
-Summary: English pipeline optimized for CPU. Components: tok2vec, tagger, parser, senter, ner, attribute_ruler, lemmatizer.
+Name: en-core-web-sm-mirror
+Version: 2.2.5
+Summary: English multi-task CNN trained on OntoNotes. Assigns context-specific token vectors, POS tags, dependency parse and named entities.
 Home-page: https://explosion.ai
 Author: Explosion
 Author-email: contact@explosion.ai

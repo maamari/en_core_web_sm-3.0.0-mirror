@@ -1,0 +1,12 @@
+MANIFEST.in
+meta.json
+setup.cfg
+setup.py
+en_core_web_sm/__init__.py
+en_core_web_sm/meta.json
+encorewebsm_mirror.egg-info/PKG-INFO
+encorewebsm_mirror.egg-info/SOURCES.txt
+encorewebsm_mirror.egg-info/dependency_links.txt
+encorewebsm_mirror.egg-info/not-zip-safe
+encorewebsm_mirror.egg-info/requires.txt
+encorewebsm_mirror.egg-info/top_level.txt

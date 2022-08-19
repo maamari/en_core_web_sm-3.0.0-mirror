@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+# coding: utf8
+from __future__ import unicode_literals
+
 import io
 import json
 from os import path, walk
@@ -43,18 +46,17 @@ def setup_package():
     copy(meta_path, model_dir)
 
     setup(
-        name=model_name,
-        description=meta.get('description'),
-        author=meta.get('author'),
-        author_email=meta.get('email'),
-        url=meta.get('url'),
+        name="artk-ecws-mirror",
+        description=meta['description'],
+        author=meta['author'],
+        author_email=meta['email'],
+        url=meta['url'],
         version=meta['version'],
-        license=meta.get('license'),
+        license=meta['license'],
         packages=[model_name],
         package_data={model_name: list_files(model_dir)},
         install_requires=list_requirements(meta),
         zip_safe=False,
-        entry_points={'spacy_models': ['{m} = {m}'.format(m=model_name)]}
     )
 
 
